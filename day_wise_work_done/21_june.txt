@@ -1,0 +1,30 @@
+>>>>Introductory Session<<<<
+
+1)Golden Hammer Syndrome: (https://everything2.com/title/Golden+Hammer+Syndrome)
+"When all you have is hammer, everything looks like a nail".
+"A familiar technology or concept applied obsessively to many software problems".
+def: In CS terms, using the same set of technologies/tools(that we know) in order to solve different problems,
+ just in order to avoid risk and be in the state of comfort zone. And the problem with using the same tools
+ everytime is that you don't have enough arguments to make a choice because you have nothing to compare and this
+ is limiting your knowledge. This is called as the Golden Hammer Syndrome, and the solution to avoid that is to keep
+ looking for the best possible choice, even if we are not familiar with it.
+-------
+2)Agile Manifesto webiste:(http://agilemanifesto.org/principles.html)
+-------
+3)Waterfall model: (https://www.tutorialspoint.com/sdlc/sdlc_waterfall_model.html)
+
+System feasibility -> Requirement Analysis and Planning -> System Design -> Detail Design -> Coding -> Testing and integration -> Installation -> Operation and Maintanence
+-------
+4)Scrum, Kanban, XP: (https://www.linkedin.com/pulse/agile-scrum-vs-kanban-xp-nutshell-paradise-across-all-malakar/)
+(https://manifesto.co.uk/kanban-vs-scrum-vs-xp-an-agile-comparison/)
+
+>>>>Computer Programming<<<<
+
+1)Compiled vs interpreted languages:(https://medium.com/@zachedubno/compiled-vs-interpreted-languages-b129ab46d321)
+(https://stackoverflow.com/questions/2657268/whats-the-difference-between-compiled-and-interpreted-language)
+Compiled Languages: The whole program will be converted into the binary code at a time before the execution.
+Interpreted Languages: The code gets compiled on the fly, line-by-line. Cons: During executing a loop, gets compiled multiple times which makes the whole execution slower.
+
+2)Procedural, imperative, object-oriented and functional programming:(https://stackoverflow.com/questions/552336/oop-vs-functional-programming-vs-procedural)
+
+3)OOP 101: (https://medium.com/the-renaissance-developer/python-101-object-oriented-programming-part-1-7d5d06833f26)
