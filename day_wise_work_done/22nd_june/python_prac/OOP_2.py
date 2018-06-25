@@ -1,17 +1,11 @@
 # Inheritance
 
 class Animal:
-	cool = True
+	def __init__(self, name, species):
+		self.name = name
+		self.species = species
 
 	def make_sound(self, sound):
-		print("This animal says: " + sound)
-
-
-class Cat(Animal):
-	pass
-
-cat = Cat()
-cat.make_sound("meow")
 
 # properties
 
@@ -27,7 +21,7 @@ class Human:
 	# 		self._age = 0
 	# 	else:
 	# 		self._age = new_age
-	
+
 	# def get_age(self):
 	# 	return self._age
 
@@ -37,9 +31,18 @@ class Human:
 	def age(self):
 		return self._age
 
+	@age.setter
+	def age(self, value):
+		if(value >= 0):
+			self._age = value
+		else:
+			raise ValueError("Age can't be negative!")
+
 harsha = Human("sri", "harsha", 21)
 # print(harsha.get_age())
 # harsha.set_age(20)
 # print(harsha.get_age())
 
+print(harsha.age)
+harsha.age = 20
 print(harsha.age)
