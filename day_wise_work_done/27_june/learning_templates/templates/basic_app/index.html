@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+{% extends 'basic_app/base.html' %}
+{% block body_block %}
+    <h1>WELCOME to index.html</h1>
+    <p>This is index.html!</p>
+    <h1>{{text | cut:'hello'}}</h1>
+    <br>
+    <h2>{{number | add:"99"}}</h2>
+{% endblock %}

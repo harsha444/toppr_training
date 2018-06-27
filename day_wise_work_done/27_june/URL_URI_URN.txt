@@ -1,0 +1,5 @@
+URI: Superset of URL and URI. It contains the method(i.e defines how to access resource), location(where resource resides) and the resource itself(may be a image/text file)
+URL: Method+Location."All Urls are URIs, but all URIs need not necessarily be URLs".
+eg:http://google.com/author/betty.html#posts
+here the part till .html is URL and the resource i.e posts doesn't come under the URL part, but is a URI
+URN: Namespace. It basically contains the location of resource
